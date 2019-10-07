@@ -20,12 +20,19 @@
     telemetryConsent: "limited"
   editor:
     fontSize: 12
+    showIndentGuide: true
   "exception-reporting":
     userId: "e2077dee-4c5b-4ccf-9cd4-f7afc4a5ac00"
   "file-icons":
     coloured: false
   "linter-ui-default":
     useBusySignal: false
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
   "tool-bar":
     position: "Left"
   "tree-view":
