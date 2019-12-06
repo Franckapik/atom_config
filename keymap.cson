@@ -1,0 +1,15 @@
+'atom-text-editor':
+  'cmd-i': 'editor:auto-indent'
+  'cmd-o': 'sequential-number:open'
+  
+'atom-text-editor[data-grammar~="source"]':
+  'ctrl-M': 'source-preview:toggle'
+
+
+
+'atom-workspace':
+  'cmd-l': 'one-liner:run'
+  'cmd-w': 'atom-tag-wrapper:wrap'
+
+'.platform-linux atom-text-editor':
+  'cmd-z': 'bracket-matcher:select-inside-brackets'
