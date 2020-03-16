@@ -30,7 +30,6 @@
   minimap:
     absoluteMode: true
     adjustAbsoluteModeHeight: true
-    displayMinimapOnLeft: true
     plugins:
       pigments: true
       pigmentsDecorationsZIndex: 0
@@ -38,6 +37,5 @@
     position: "Left"
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
